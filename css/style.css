@@ -103,3 +103,43 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 /* header section end */
+/* quick section start */
+.quick-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.quick-img{
+    padding: 50px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.quick-img img{}
+.quick-info{
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick-text p{
+    margin: 20px 0;
+}
+.list{
+    color: #727272;
+    font-weight: 200;
+}
+.our{
+    font-family:WorkSans-Bold;
+    color: #131313;
+    font-weight: 700;
+}
+.features{
+    font-family:WorkSans-Bold;
+    color: #FF900E;
+    font-weight: 700;
+}
+/* quick section end */
