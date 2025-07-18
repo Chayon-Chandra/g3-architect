@@ -156,13 +156,17 @@ nav ul li a:hover{
 .cv-info{
     width: 50%;
 }
-.cv-info h2{
+.cv-desh h2{
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+}
+.cv-desh h2{
     font-family:WorkSans-Bold;
     color: #424242;
     font-size: 2.81rem;
     font-weight: 700;
 }
-.cv-info p{
+.cv-desh p{
     margin-top: 20px;
 }
 .destop{
@@ -196,7 +200,6 @@ nav ul li a:hover{
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-   
 }
 .year p{
     font-family:WorkSans-SemiBold;
@@ -204,6 +207,55 @@ nav ul li a:hover{
     font-size: 1.56rem;
     color: #FFFFFF;
     font-weight: 600;
-
 }
 /* Features section end */
+/* Some Facts section start */
+#some{
+    margin: 200px 0 50px 0;
+}
+.some-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.some-container h2{
+    font-family:WorkSans-Bold;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.some-container p{
+    margin: 20px 0;
+}
+.some-box{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 60px;
+}
+.some-box-item{
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+}
+.some-box-item:hover{
+    border: 1px solid #131313;
+    transition-duration: 1s;
+}
+.some-box-item img{
+    width: 15%;
+}
+.some-box-item h2{
+    margin: 10px 0;
+    font-family:WorkSans-Bold;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.some-box-item h6{
+    font-family:WorkSans-SemiBold;
+    font-size: 1.25rem;
+    color: #131313;
+    font-weight: 600;
+}
+/* Some Facts section end */

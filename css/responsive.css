@@ -76,7 +76,12 @@
     }
 
     /* Features section end */
-
+    /* Some Facts section start */
+        .some-box{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    /* Some Facts section end */
 
 
 
@@ -146,7 +151,12 @@
         width: 90%;
     }
     /* Features section end */
-
+    /* Some Facts section start */
+        .some-box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    /* Some Facts section end */
 
 
 
